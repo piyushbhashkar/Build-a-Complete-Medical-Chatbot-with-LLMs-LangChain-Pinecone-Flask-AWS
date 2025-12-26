@@ -127,3 +127,27 @@ open up localhost:
    - OPENAI_API_KEY
 
 
+# Actual run by me 
+
+```
+pip install -U langchain-community pypdf
+pip install -U langchain-text-splitters langchain-community pypdf pinecone-client
+pip install -U langchain-community sentence-transformers
+pip install -U langchain-core
+pip uninstall pinecone-client -y
+pip install -U pinecone   
+python store_index.py
+
+
+pip install "langchain==0.3.7" "langchain-core<1.0.0" "langchain-community==0.3.7"
+pip install "langchain-pinecone==0.2.13"
+
+Hello 
+
+```
+
+
+
+
+
+
